@@ -1,0 +1,329 @@
+@media screen and (max-width: 1279px) {
+  /*Header start*/
+
+  .header {
+    margin-left: -384px;
+  }
+
+  .header-container {
+    width: 768px;
+    padding: 0 30px;
+  }
+
+  /*Header end*/
+
+  /*Main start*/
+
+  /*Our friends start*/
+
+  .our-friends {
+    height: 1733px;
+  }
+
+  .pop-up-container {
+    height: 402px;
+    width: 682px;
+  }
+
+  .pop-up-window {
+    height: 350px;
+    width: 630px;
+    gap: 11px;
+    padding-right: 8px;
+  }
+
+  .pop-photo {
+    width: 350px;
+    height: 350px;
+  }
+
+  .pop-content {
+    margin-top: 10px;
+    gap: 20px;
+  }
+
+  .description-of-pet {
+    font-size: 13px;
+  }
+
+  .param-of-pet {
+    gap: 6px;
+  }
+
+  .our-friends-container {
+    width: 768px;
+    padding: 80px 30px 70px;
+    gap: 30px;
+  }
+
+  .our-friends-pets-container {
+    gap: 40px;
+  }
+
+  .card-of-pets-main-container {
+    padding: 0;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 30px;
+  }
+
+  .scarlett {
+    display: none;
+  }
+
+  .freddie {
+    display: none;
+  }
+
+  /*Our friends end*/
+
+  /*Main end*/
+
+  /*Footer start*/
+
+  .contacts {
+    background-size: 100vw 639px;
+    height: 639px;
+  }
+
+  .contacts-container {
+    width: 768px;
+    padding: 30px 30px 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 64px;
+  }
+
+  .questions-box {
+    margin-top: 0;
+  }
+
+  .adress-box {
+    gap: 33px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*Header start*/
+
+  .header {
+    margin-left: -160px;
+    height: 120px;
+  }
+
+  .header-open {
+    margin-left: 320px;
+  }
+
+  .header-container {
+    width: 320px;
+    padding: 0 10px;
+    justify-content: flex-start;
+    gap: 43px;
+  }
+
+  .logo {
+    align-items: flex-start;
+  }
+
+  .logo-open {
+    display: none;
+  }
+
+  .shelter-for-pets {
+    text-align: center;
+    width: 186px;
+  }
+
+  .hamburger {
+    display: block;
+    z-index: 20;
+  }
+
+  .logo-ham {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    right: -320px;
+    transition: 0.7s;
+  }
+
+  .logo-ham-open {
+    right: 126px;
+  }
+
+  .hamburger-open {
+    position: fixed;
+    right: 53px;
+    margin-right: 0;
+  }
+
+  .nav {
+    position: fixed;
+    top: 0px;
+    right: -320px;
+    width: 320px;
+    height: 100%;
+    overflow: auto;
+    background-color: #ffffff;
+    z-index: 19;
+    transition: all 0.5s linear;
+  }
+
+  .nav-list {
+    position: relative;
+    top: 248px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    z-index: 19;
+  }
+
+  .nav-link {
+    font-size: 32px;
+  }
+
+  .nav-open {
+    right: 0px;
+  }
+
+  .line1-transf {
+    transform: translateX(-13px) translateY(11px) rotate(-90deg);
+  }
+
+  .line2-transf {
+    transform: translateX(-3px) translateY(0) rotate(-90deg);
+  }
+
+  .line3-transf {
+    transform: translateX(7px) translateY(-9px) rotate(-90deg);
+  }
+
+  /*Header end*/ /*Main start*/
+
+  /*Our friends start*/
+
+  .our-friends {
+    height: 1649px;
+  }
+
+  .pop-up-container {
+    height: 393px;
+    width: 270px;
+  }
+
+  .pop-up-window {
+    left: 15.5px;
+    height: 341px;
+    width: 240px;
+    gap: 0;
+    padding: 10px;
+  }
+
+  .pop-photo-container {
+    display: none;
+  }
+
+  .pop-content {
+    margin-top: 0;
+    gap: 20px;
+  }
+
+  .pop-content-title {
+    align-items: center;
+  }
+
+  .breed-type-pet {
+    text-align: center;
+  }
+
+  .description-of-pet {
+    text-align: justify;
+  }
+
+  .param-of-pet {
+    margin-top: 4px;
+    gap: 5px;
+  }
+
+  .close-pop-up {
+    right: -15.5px;
+  }
+
+  .our-friends-container {
+    width: 320px;
+    padding: 42px 10px;
+    gap: 42px;
+  }
+
+  .our-friends-title {
+    font-size: 25px;
+  }
+
+  .our-friends-pets-container {
+    gap: 42px;
+  }
+
+  .sophia {
+    display: none;
+  }
+
+  .timmy {
+    display: none;
+  }
+
+  .charly {
+    display: none;
+  }
+
+  .button-container {
+    gap: 10px;
+  }
+
+  /*Our friends end*/
+
+  /*Main end*/
+
+  /*Footer start*/
+
+  .contacts {
+    background-size: 100vw 809px;
+    height: 809px;
+  }
+
+  .contacts-container {
+    width: 320px;
+    padding: 30px 10px 0;
+    row-gap: 39px;
+  }
+
+  .questions-box {
+    align-items: center;
+  }
+
+  .questions-title {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .adress-box {
+    gap: 40px;
+  }
+
+  .adress-box-title {
+    margin-left: 15px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .footer-puppy-photo {
+    width: 260px;
+    height: auto;
+  }
+}
