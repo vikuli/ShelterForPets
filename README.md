@@ -2,4 +2,4 @@
 In this project, I created a website for a pet shelter.  
 You can see the result of my work on [the link](https://vikuli.github.io/ShelterForPets/pages/main/).  
 Link to the layout, according to which I made up the site:  
-+ [Shelter layout](https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?node-id=94%3A43)
++ [Figma mockup](https://www.figma.com/file/tKcmzkARtMUFQAR9VLdLkl/shelter-dom?node-id=94%3A43)
